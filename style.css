@@ -61,10 +61,10 @@
       background: url('img/Service-2.jpg') no-repeat center;
   }
   .nav_slider .slider2{
-      background: url('img/Home-man.jpg');
+      background: url('img/Home-man.jpg')no-repeat center ;
   }
   .nav_slider .slider3{
-      background: url('img/Service-6.jpg');
+      background: url('img/Service-6.jpg')no-repeat center;
   }
   @keyframes slider{
       0%{
@@ -183,6 +183,9 @@
     .nav{
         display: none;
     }
+    .nav_slider{
+        width: 100vw;
+    }
     .middle_section{
         width: 100vw;
         height: 200vh;
@@ -282,11 +285,11 @@
     .comuni{
         width: 100vw;
         height: 50vh;
-        margin-top: 62em;
+        margin-top: 69em;
     }
     .comuni img{
-        width: 23em;
-        height: 12em;
+        width: 60vw;
+        height: 50vh;
     }
     .com1{
         top: 64%;
