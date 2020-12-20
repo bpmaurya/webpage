@@ -128,7 +128,7 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    padding: 0em 9em;
+    padding: 0em 1em;
     /* background:#bac3c3 */
 }
 .middle_section .some_in a{
@@ -165,18 +165,9 @@
 .cards .function:hover{
   background: #12df78;
 }
-@media(min-width:400px){
-    .comuni{
-        display: none;
-        width: 100vw;
-        height: 34vh;
-    }
-    .section1{
-        margin-top: 34em;
-    }
-}
 
-@media (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
       .middle_section{
           display: flex;
           flex-direction: column;
@@ -188,7 +179,7 @@
           width: 3em;
       }
 }
-@media(max-width:768px){
+@media screen and (max-width:768px){
     .nav{
         display: none;
     }
@@ -324,7 +315,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        
+
     }
     .footer .foot_item1{
         justify-content: center;
